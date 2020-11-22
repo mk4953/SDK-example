@@ -4,7 +4,7 @@ TARGET = helloworld
 
 all: $(TARGET)
 
-helloworld: $(TARGET).c
+helloSDK: $(TARGET).c
 	$(CC) $(CFLAGS) ${LDFLAGS} -o $(TARGET) $(TARGET).c
 
 .PHONY: clean
