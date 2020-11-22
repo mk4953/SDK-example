@@ -1,5 +1,5 @@
 CFLAGS = -Wall -g -D_GNU_SOURCE
-
+CC = gcc
 TARGET = hellosdk
 
 all: $(TARGET)
