@@ -1,6 +1,6 @@
 CFLAGS = -Wall -g -D_GNU_SOURCE
 
-TARGET = helloworld
+TARGET = hellosdk
 
 all: $(TARGET)
 
